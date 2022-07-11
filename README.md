@@ -69,6 +69,19 @@ or
 ng version 
 ```
 
+## Crear Aplicación Ionic
+
+1. Crear una carpeta en donde se alojará el proyecto.
+2. Una vez hecho esto, ejecutar en un la ruta donde se encuentra dicha carpeta el siguiente comando:
+```bash
+..\Path_APP_Ionic> ionic start name_proyect
+```
+3. Seleccionar el tipo de aplicación aplicación o plantilla que se puede crear con ionic los cuales son: blank, tabs, sidemenu, list, my-firstapp.
+4. Seleccionar Angular como Framework aunque existe reactJS y VueJS para crearla.
+5. Esperar a que se ejecuten todas las configuraciones necesarias y listo.
+
+## Dependencias de Angular
+
 ### NodeModules
 
 * Para instalar los nodemodules de proyecto se debe utilizar el siguiente comando:
@@ -144,7 +157,6 @@ Para hacer el llamado, la vinculación o la importanción de las depencias insta
     "node_modules/datatables.net/js/jquery.dataTables.js"
     ]
 ```
-
 ## Generación de Pages o Componentes
 
 1. Ubicado en `...\IonicAPP\src\app>`.
@@ -158,4 +170,11 @@ Para hacer el llamado, la vinculación o la importanción de las depencias insta
 
 ```bash
 ..\IonicAPP\src\app> ionic generate component name
+```
+
+## Iniciar Aplicación Ionic
+
+Estando Ubicado en `...\IonicAPP>` ejecutar el siguiente comando:
+```bash
+..\IonicAPP> ionic start
 ```
